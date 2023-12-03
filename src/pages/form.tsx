@@ -5,7 +5,6 @@ import unsplash from '../assets/Screen Shot 2023-11-04 at 5.34.40 PM.png';
 const Form = () => {
   const [showContent, setShowContent] = useState(false);
 
-  // Use `useEffect` to trigger the transition when the component is mounted
   useEffect(() => {
     setShowContent(true);
   }, []);
@@ -75,7 +74,6 @@ const Form = () => {
                   autoComplete="email"
                   required
                   className={`bg-bodydark text-black outline-none p-10 block w-full  border border-body border-2 rounded-xl border-1 p-3  opacity-30 shadow-inner placeholder-gray-400 focus:ring-primary sm:text-sm sm:leading-6`}
-                  // style={{ outlineColor: themes.stroke }}
                 />
               </div>
             </div>
@@ -91,7 +89,6 @@ const Form = () => {
                   autoComplete="current-password"
                   required
                   className={`bg-bodydark text-black outline-none p-10 block w-full  opacity-30 border border-body border-2 rounded-xl border-0 p-3 shadow-inner placeholder-gray-400 focus:ring-primary sm:text-sm sm:leading-6`}
-                  // style={{ outlineColor: themes.stroke }}
                 />
               </div>
             </div>

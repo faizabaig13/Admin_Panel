@@ -9,24 +9,6 @@ import {
 import App from './App';
 import './index.css';
 import './satoshi.css';
-import Password from './pages/password';
-
-
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Form/>,
-  },
-  {
-    path: "/password",
-    element: <Password/>,
-  },
-  {
-    path: "/form",
-    element: <Form/>,
-  },
-]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
